@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
 <title>Decapkryo</title>
-<link rel="icon" href="img/icon.png" />
+<link rel="icon" href="images/icon.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="description" content="Decapkryo. Soluções de decapagem e limpeza industrial, sem utilização de abrasivos solventes, detergentes e água.">
@@ -13,12 +13,14 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/lightbox.css">
 <!--// bootstrap-css -->
 <!-- css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <!--// css -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- font-awesome icons 
+<link href="css/font-awesome.css" rel="stylesheet"> -->
+<script src="https://use.fontawesome.com/d42ba4dd4b.js"></script>
 <!-- //font-awesome icons -->
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -46,15 +48,15 @@
 				<div class="container">
 					<div class="w3-header-top-grids">
 						<div class="w3-header-top-left">
-							<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +1 234 567 8901</p>
+							<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +351 918 602 401</p>
 						</div>
 						<div class="w3-header-top-right">
 							<div class="agileinfo-social-grids">
 								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-rss"></i></a></li>
-									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+									<li><a href="http://www.facebook.com/Decapkryo-319878785154242/"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#contacto" class="scroll"><i class="fa fa-envelope"></i></a></li>
+									<!--<li><a href="#"><i class="fa fa-rss"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk"></i></a></li>-->
 								</ul>
 							</div>
 							<div class="clearfix"> </div>
@@ -75,7 +77,7 @@
 								<span class="icon-bar"></span>
 							  </button>
 								 <div class="navbar-brand logo ">
-									<h1><a href="index.html">Interior <span>Style</span></a></h1>
+									<a href="http://www.decapkryo.com"><img src="images/logo.png" alt="logo_decapkryo" width="300" height="auto"></a>
 								</div>
 
 							</div>
@@ -83,17 +85,11 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							 <ul class="nav navbar-nav link-effect-4">
-							<li class="active"><a href="index.html">Home</a> </li>
-								<li><a href="about.html">About </a> </li>
-								<li><a href="gallery.html">Gallery</a></li>
-								<li class="dropdown">
-									<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Pages <b class="caret"></b></a>
-									<ul class="dropdown-menu">
-										<li><a href="icons.html">Icons</a></li>
-										<li><a href="codes.html">Codes</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact</a></li>
+							<li class="active"><a href="index.html">Início</a></li>
+								<li><a href="#welcome" class="scroll">Sobre</a></li>
+								<li><a href="#processo" class="scroll">Processo</a></li>
+								<li><a href="#aplicacoes" class="scroll">Aplicações</a></li>
+								<li><a href="#contacto" class="scroll">Contacto</a></li>
 							  </ul>
 							</div><!-- /.navbar-collapse -->
 					</div>
@@ -106,44 +102,33 @@
 							<ul class="rslides callbacks callbacks1" id="slider4">
 								<li>
 									<div class="agileits-banner-info">
-										<h3>Kitchen Remodeling</h3>
-										<p>Etiam ut maximus mauris, eu pretium neque. Donec nibh lectus, blandit id metus non, bibendum dictum quam.</p>
+										<h3>Soluções de decapagem e limpeza industrial</h3>
+										<p>Sem utilização de abrasivos solventes, detergentes e àgua</p>
 										<div class="w3-button">
 											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+												<a href="#welcome" class="scroll">VER MAIS</a>
 											</div>
 										</div>
 									</div>
 								</li>
 								<li>
 									<div class="agileits-banner-info">
-										<h3>Commercial Remodeling</h3>
-										<p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius.</p>
+										<h3>Automóveis Clássicos e Colecções</h3>
+										<p>Limpeza de motores; Decapagem de chapa</p>
 										<div class="w3-button">
 											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+												<a href="#welcome" class="scroll">VER MAIS</a>
 											</div>
 										</div>
 									</div>
 								</li>
 								<li>
 									<div class="agileits-banner-info">
-										<h3>Home Renovation</h3>
-										<p>Etiam ut maximus mauris, eu pretium neque. Donec nibh lectus, blandit id metus non, bibendum dictum quam.</p>
+										<h3>Indústria Ago-alimentar</h3>
+										<p>Bandas transportadoras; Limpeza de fornos</p>
 										<div class="w3-button">
 											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="agileits-banner-info">
-										<h3>Bath Remodeling</h3>
-										<p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius.</p>
-										<div class="w3-button">
-											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+												<a href="#welcome" class="scroll">VER MAIS</a>
 											</div>
 										</div>
 									</div>
@@ -178,27 +163,32 @@
 	</div>
 	<!-- //banner -->
 	<!-- welcome -->
-	<div class="welcome">
+	<div id="welcome" class="welcome">
 		<div class="container">
 			<div class="w3-heading-grid">
-				<h2>Welcome</h2>
+				<h2>Sobre</h2>
 				<div class="agileits-border"> </div>
-				<p>Sed turpis mi, efficitur quis quam eu, pellentesque fermentum lectus. Pellentesque placerat sapien non dolor laoreet malesuada. Maecenas at nibh sollicitudin, pretium libero id, eleifend tellus. Aenean pulvinar augue eu ante vulputate ultricies. Vestibulum condimentum venenatis mollis. Suspendisse tempor</p>
+				<p>DECAPKRYO apresenta-vos os seus serviços de decapagem e limpeza por criogenia.
+					Este processo consiste a projetar pelletes ou micropartículas de gelo carbónico a uma temperatura de -78.5° sobre as superfícies a tratar.
+					O vetor de projeção é o ar comprimido.
+					Este processo não genera resíduos secundários, que o difere das outras soluções como o jato de areia, abrasivos ou jato de agua em alta pressão, etc.</p>
 			</div>
 			<div class="w3l-welcome-grids">
 				<div class="col-md-5 w3ls-welcome-left">
-					<img src="images/4.jpg" alt="" />
+					<img src="images/Dlogo.png" alt="Dlogo"/>
 				</div>
 				<div class="col-md-7 w3ls-welcome-right">
-					<h4>Morbi vestibulum odio eget turpis aliquet dictum</h4>
-					<p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius dictum lorem, et laoreet ipsum. Nunc eget sem rutrum, dictum dolor id, rhoncus justo.
+					<h4>Vantagens</h4>
+					<!--<p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius dictum lorem, et laoreet ipsum. Nunc eget sem rutrum, dictum dolor id, rhoncus justo.
 						<span>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi tempus urna at tincidunt sodales. Sed pellentesque lacinia dui in venenatis.</span>
-					</p>
+					</p>-->
 					<ul>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Aenean pulvinar augue</li>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Proin aliquam dui sollicitudin</li>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Etiam convallis gravida felis</li>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Vivamus sed tempor orci</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Limpezas e decapagem de pecas com geometrias complexas.</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Limpezas de armários elétricos de alta tensão em funcionamento ( o gelo carbónico não é condutor elétrico).</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Não altera a superfícies do suporte de origem, o gelo carbónico tem uma dureza de 2 MOHS, idêntico ao giz.</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> É ecológico, não utiliza aditivos secundários, agua, abrasivos, solventes, detergentes, ou produtos químicos, o gelo carbónico não produzido ele é reciclado das industrias.</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Reduz ou elemina as percas de produção na industria, o tratamento pode ser feito em simultâneo da produção, não é necessário desmontar os equipamentos.</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> O gelo carbónico elemina as bactérias.</li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -207,176 +197,434 @@
 	</div>
 	<!-- //welcome -->
 	<!-- popular -->
-	<div class="popular-section-wthree jarallax">
+	<div id="processo" class="popular-section-wthree jarallax">
 		<div class="agileinfo-dot">
 			<div class="container">	
 				<div class="w3-heading-grid popular-heading">
-					<h3>Our Services</h3>
+					<h3>Processo</h3>
 					<div class="agileits-border"> </div>
 				</div>
 				<div class="popular-agileinfo">
-					<div class="col-md-3 popular-grid">
-						<i class="fa fa-bell" aria-hidden="true"></i>
-						<h4>Sed tempus</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
+					<div class="col-md-4 popular-grid">
+						<i class="fa fa-bolt" aria-hidden="true"></i>
+						<h4>Energia Cinética</h4>
+						<p>O impulso do gelo carbónico sob o suporte contaminado, obtido por a velocidade do ar (tal como o processo do jato) com cerca de 300m/s e mais conforme as ponteiras utilizadas</p>
 					</div>
-					<div class="col-md-3 popular-grid">
-						<i class="fa fa-anchor" aria-hidden="true"></i>
-						<h4>Nulla varius</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
+					<div class="col-md-4 popular-grid">
+						<i class="fa fa-thermometer-half" aria-hidden="true"></i>
+						<h4>Choque Térmico</h4>
+						<p>Sob o efeito do extremo frio do gelo carbónico a – 78.5°, o contaminante retracta-se , criando nele micro fissuras</p>
 					</div>
-					<div class="col-md-3 popular-grid popular-grid-bottom">
-						<i class="fa fa-book" aria-hidden="true"></i>
-						<h4>Morbi tempus</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
-					</div>
-					<div class="col-md-3 popular-grid">
-						<i class="fa fa-car" aria-hidden="true"></i>
-						<h4>Lorem ipsum</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
+					<div class="col-md-4 popular-grid">
+						<i class="fa fa-cloud" aria-hidden="true"></i>
+						<h4>Sublimação</h4>
+						<p>Sob o impacto, o gelo carbónico passa do estado solido ao estado gasoso, multiplicando o seu volume por 600, esse aumento de volume genera um impacto que levanta e arranca o contaminante</p>
 					</div>
 					<div class="clearfix"> </div>
+				</div>
+				<div id="divQuadro" class="row">
+					<img id="imgQuadro" src="images/quadro.png" alt="quadro"/>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- //popular -->
 	<!-- news -->
-	<div class="news">
+	<div id="aplicacoes" class="news">
 		<div class="container">  
 			<div class="w3-heading-grid">
-					<h3>News & Events</h3>
+					<h3>Aplicações</h3>
 					<div class="agileits-border"> </div>
 				</div>
 			<div class="news-agileinfo"> 
-				<div class="col-md-4 news-right agileits-w3layouts">
-					<h4>Achievements</h4>
+				<!--<div class="col-md-4 news-right agileits-w3layouts">
+					<h4>Automoveis Clássicos e Colecções</h4>
 					<div class="achievesw3-agile">
 						<ul> 
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Donec tempor odio vitae.</a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Phasellus gravida mi dui. </a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Sitid auctor donec neque.</a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Donec tempor odio vitae.</a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Phasellus gravida mi dui. </a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Sitid auctor donec neque.</a></li>
-							<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Donec neque sitid auctor.</a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Limpeza de tabeliers, estofos e forros</a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Decapagem de chapa e chassis</a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Limpeza de motores, caixa de velocidades </a></li>
 						</ul>  
 					</div>
+				</div>-->
+				<!-------------------------------------Automoveis Clássicos e Colecções -->
+				<div class="row news-right agileits-w3layouts">
+					<h4 style="text-align: center">Automoveis Clássicos e Colecções</h4>
 				</div>
-				<div class="col-md-8 news-w3row"> 
-					<div class="wthree-news-grids">
-						<div class="col-md-3 col-xs-3 datew3-agileits">
-							<img src="images/t1.jpg" class="img-responsive" alt=""/>
-						</div>
-						<div class="col-md-9 col-xs-9 datew3-agileits-info ">
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">Fusce scelerisque sit amet justo vitae</a></h5>
-							<h6>3/05/2017</h6>
-							<p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
-						</div>
-						<div class="clearfix"> </div>
+				<div class="row col-md-12"> 
+					<!-- gallery -->
+					<div class="gallery">
+							<div class="gallery-grids">
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/carro1.png" data-lightbox="example-set" data-title="Decapagem de chapa e chassis">
+													<img src="images/carro1.png" alt="" />
+													<figcaption>
+														<p>Decapagem de chapa e chassis</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/carro2.png" data-lightbox="example-set" data-title="Decapagem de chapa e chassis">
+													<img src="images/carro2.png" alt="" />
+													<figcaption>
+														<p>Decapagem de chapa e chassis</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/estofos1.png" data-lightbox="example-set" data-title="Limpeza de tabeliers, estofos e forros">
+													<img src="images/estofos1.png" alt="" />
+													<figcaption>
+														<p>Limpeza de tabeliers, estofos e forros</p>
+													</figcaption>		
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/estofos2.png" data-lightbox="example-set" data-title="Limpeza de tabeliers, estofos e forros">
+													<img src="images/estofos2.png" alt="" />
+													<figcaption>
+														<p>Limpeza de tabeliers, estofos e forros</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/motor1.png" data-lightbox="example-set" data-title="Limpeza de motores, caixa de velocidades">
+													<img src="images/motor1.png" alt="" />
+													<figcaption>
+														<p>Limpeza de motores, caixa de velocidades</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/motor2.png" data-lightbox="example-set" data-title="Limpeza de motores, caixa de velocidades">
+													<img src="images/motor2.png" alt="" />
+													<figcaption>
+														<p>Limpeza de motores, caixa de velocidades</p>
+													</figcaption>		
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="clearfix"> </div>
+									<script src="js/lightbox-plus-jquery.min.js"> </script>
+							</div>
 					</div>
-					<div class="wthree-news-grids news-grids-mdl">
-						<div class="col-md-3 col-xs-3 datew3-agileits datew3-agileits-fltrt">
-							<img src="images/t2.jpg" class="img-responsive" alt=""/>
-						</div>
-						<div class="col-md-9 col-xs-9 datew3-agileits-info datew3-agileits-info-fltlft">
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">Fusce scelerisque sit amet justo vitae</a></h5>
-							<h6>5/05/2017</h6>
-							<p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div> 
-					<div class="wthree-news-grids">
-						<div class="col-md-3 col-xs-3 datew3-agileits">
-							<img src="images/t3.jpg" class="img-responsive" alt=""/>
-						</div>
-						<div class="col-md-9 col-xs-9 datew3-agileits-info ">
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">Fusce scelerisque sit amet justo vitae</a></h5>
-							<h6>8/05/2017</h6>
-							<p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
-						</div>
-						<div class="clearfix"> </div>
+					<!-- //gallery -->
+				</div>
+				<div class="clearfix"> </div>
+				<!-------------------------------------Industria agro-alimentar -->
+				<div class="row news-right agileits-w3layouts" style="margin-top: 50px">
+					<h4 style="text-align: center">Industria Agro-alimentar</h4>
+				</div>
+				<div class="row col-md-12"> 
+					<!-- gallery -->
+					<div class="gallery">
+							<div class="gallery-grids">
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/alimentar1.png" data-lightbox="example-set" data-title="Bandas transportadoras">
+													<img src="images/alimentar1.png" alt="" />
+													<figcaption>
+														<p>Bandas <br> Transpor- tadoras</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/alimentar2.png" data-lightbox="example-set" data-title="Bandas transportadoras">
+													<img src="images/alimentar2.png" alt="" />
+													<figcaption>
+														<p>Bandas <br> Transpor- tadoras</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/alimentar3.png" data-lightbox="example-set" data-title="Limpeza de Fornos e Formas">
+													<img src="images/alimentar3.png" alt="" />
+													<figcaption>
+														<p>Limpeza de Fornos e Formas</p>
+													</figcaption>		
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/alimentar4.png" data-lightbox="example-set" data-title="Automatismos electricos e pneumáticos">
+													<img src="images/alimentar4.png" alt="" />
+													<figcaption>
+														<p>Automatismos electricos e pneumáticos</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/alimentar5.png" data-lightbox="example-set" data-title="Automatismos electricos e pneumáticos">
+													<img src="images/alimentar5.png" alt="" />
+													<figcaption>
+														<p>Automatismos electricos e pneumáticos</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="clearfix"> </div>
+							</div>
 					</div>
+					<!-- //gallery -->
+				</div>
+				<div class="clearfix"> </div>
+				<!-------------------------------------Indústria Aeronautica / Mecanica -->
+				<div class="row news-right agileits-w3layouts" style="margin-top: 50px">
+					<h4 style="text-align: center">Indústria Aeronautica / Mecanica</h4>
+				</div>
+				<div class="row col-md-12"> 
+					<!-- gallery -->
+					<div class="gallery">
+							<div class="gallery-grids">
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero1.png" data-lightbox="example-set" data-title="Geradores electricos">
+													<img src="images/aero1.png" alt="" />
+													<figcaption>
+														<p>Geradores electricos</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero2.png" data-lightbox="example-set" data-title="Geradores electricos">
+													<img src="images/aero2.png" alt="" />
+													<figcaption>
+														<p>Geradores electricos</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero3.png" data-lightbox="example-set" data-title="Preparação de suportes antes dos tratamentos">
+													<img src="images/aero3.png" alt="" />
+													<figcaption>
+														<p>Preparação de suportes antes dos tratamentos</p>
+													</figcaption>		
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero4.png" data-lightbox="example-set" data-title="Armários de alta tensão">
+													<img src="images/aero4.png" alt="" />
+													<figcaption>
+														<p>Armários de alta tensão</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero5.png" data-lightbox="example-set" data-title="Cabines de pintura">
+													<img src="images/aero5.png" alt="" />
+													<figcaption>
+														<p>Cabines de pintura</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero6.png" data-lightbox="example-set" data-title="Cabines de pintura">
+													<img src="images/aero6.png" alt="" />
+													<figcaption>
+														<p>Cabines de pintura</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero7.png" data-lightbox="example-set" data-title="Formas de pneus">
+													<img src="images/aero7.png" alt="" />
+													<figcaption>
+														<p>Formas de pneus</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/aero8.png" data-lightbox="example-set" data-title="Preparação de suportes antes dos tratamentos">
+													<img src="images/aero8.png" alt="" />
+													<figcaption>
+														<p>Preparação de suportes antes dos tratamentos</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="clearfix"> </div>
+							</div>
+					</div>
+					<!-- //gallery -->
+				</div>
+				<div class="clearfix"> </div>
+				<!-------------------------------------Sector público | Restauração de património -->
+				<div class="row news-right agileits-w3layouts" style="margin-top: 50px">
+					<h4 style="text-align: center">Sector Público | Restauração de Património</h4>
+				</div>
+				<div class="row col-md-12"> 
+					<!-- gallery -->
+					<div class="gallery">
+							<div class="gallery-grids">
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/pub1.png" data-lightbox="example-set" data-title="Eliminação de graffitis">
+													<img src="images/pub1.png" alt="" />
+													<figcaption>
+														<p>Eliminação de graffitis</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/pub2.png" data-lightbox="example-set" data-title="Limpeza de Património Histórico">
+													<img src="images/pub2.png" alt="" />
+													<figcaption>
+														<p>Limpeza de Património Histórico</p>
+													</figcaption>	
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="col-md-4 gallery-grid">
+										<div class="grid">
+											<figure class="effect-apollo">
+												<a class="example-image-link" href="images/pub3.png" data-lightbox="example-set" data-title="Limpeza de Património Histórico">
+													<img src="images/pub3.png" alt="" />
+													<figcaption>
+														<p>Limpeza de Património Histórico</p>
+													</figcaption>		
+												</a>
+											</figure>
+										</div>
+									</div>
+									<div class="clearfix"> </div>
+							</div>
+					</div>
+					<!-- //gallery -->
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
 	<!-- //news -->
-		<!-- subscribe -->
-	<div class="subscribe jarallax">
+		<!-- contact -->
+	<div id="contacto" class="subscribe jarallax">
 		<div class="agileinfo-dot">
 			<div class="container">
+
 				<div class="w3-heading-grid">
-						<h3>Subscribe</h3>
-						<div class="agileits-border"> </div>
-						<p>Subscribe to our email newsletter to receive updates</p>
+					<h3>Contacto</h3>
+					<div class="agileits-border"> </div>
+				</div>
+				<div class="map">
+					<h4 class="colorWhite">Onde estamos:</h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48388.364704188425!2d-73.99489843077946!3d40.7120108624803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1490244727346"  style="border:0" allowfullscreen></iframe>
+				</div>
+				
+				<div class="address">
+					<div class="col-sm-4 address-grids">
+						<h4 class="colorWhite">Endereço :</h4>
+						<ul>
+							<li><p class="colorLightGrey">Rua da Valinha Nº90 | Moreira<br>
+									4950-612<br>
+									Monção - Portugal</p>
+							</li>
+						</ul>
 					</div>
-				<div class="subscribe-grid">
+					<div class="col-sm-4 address-grids">
+						<h4 class="colorWhite">Telefone :</h4>
+						<p class="colorLightGrey">(00351) 918 602 401</p>
+					</div>
+					<div class="col-sm-4 address-grids">
+						<h4 class="colorWhite">Email :</h4>
+						<p class="colorLightGrey">decapkryo@gmail.com</p>
+						<br>
+						<h4 class="colorWhite">Facebook :</h4>
+						<p><a href="http://www.facebook.com/Decapkryo-319878785154242/" class="colorLightGrey">facebook.com/decapkryo</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="contact-form">
+					<h4 class="colorWhite">Envie-nos um email</h4>
 					<form action="#" method="post">
-						<input type="email" placeholder="Subscribe" name="Subscribe" required="">
-						<button class="btn1"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+						<input type="text" name="name" placeholder="Nome" required="">
+						<input type="email" name="email" placeholder="Email" required="">
+						<input type="text" name="phone" placeholder="Telefone" required="">
+						<textarea placeholder="Mensagem" name="message" required=""></textarea>
+						<button class="btn1">Enviar</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- //subscribe -->
-
-	<!-- banner-bottom -->
-	<div class="banner-bottom" id="indro">
-		<div class="container">
-			<div class="wthree-bottom-grids">
-				<div class="col-md-6 wthree-bottom-grid">
-					<div class="w3-agileits-bottom-left">
-						<div class="w3-agileits-bottom-left-text">
-							<h3>Installation Contractors</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia lectus vel neque pretium viverra id quis sapien. Praesent vel ante leo. Quisque dapibus finibus massa</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 wthree-bottom-grid gbg">
-					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
-						<div class="w3-agileits-bottom-left-text">
-							<h3>Commercial Remodeling</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia lectus vel neque pretium viverra id quis sapien. Praesent vel ante leo. Quisque dapibus finibus massa</p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //banner-bottom -->
-<!-- bootstrap-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					Interior Style
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div>
-				<section>
-					<div class="modal-body">
-						<img src="images/1.jpg" alt=" " class="img-responsive" />
-						<p>Ut enim ad minima veniam, quis nostrum 
-							exercitationem ullam corporis suscipit laboriosam, 
-							nisi ut aliquid ex ea commodi consequatur? Quis autem 
-							vel eum iure reprehenderit qui in ea voluptate velit 
-							esse quam nihil molestiae consequatur, vel illum qui 
-							dolorem eum fugiat quo voluptas nulla pariatur.
-							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-								esse quam nihil molestiae consequatur.</i></p>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
-<!-- //bootstrap-pop-up -->
+	<!-- //contact -->
 	<!-- footer -->
-	<div class="footer">
+	<!--<div class="footer">
 		<div class="container">
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
@@ -417,11 +665,11 @@
 			</div>
 		</div>
 	</div>
-	<!-- //footer -->
+	 //footer -->
 	<!-- copyright -->
 	<div class="agileits-w3layouts-copyright">
 		<div class="container">
-			<p>© 2017 Interior Style. All rights reserved.</p>
+			<p>© 2017 Decapkryo | Developed by <a href="http://www.marcobrinde.com">Marcobrinde</a></p>
 		</div>
 	</div>
 	<!-- //copyright -->

@@ -12,6 +12,12 @@ html, body{
 body{
 	background:#FFFFFF;
 }
+.colorWhite{
+    color: white !important;
+}
+.colorLightGrey{
+    color: lightgrey !important;
+}
 /*-- banner --*/
 .banner-1{
 	background: url(../images/555.jpg) no-repeat 0px 0px;
@@ -19,7 +25,7 @@ body{
 	min-height:330px
 }
 .banner{
-	background: url(../images/555.jpg) no-repeat 0px 0px;
+	background: url(../images/Fundo.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .jarallax {
@@ -71,10 +77,10 @@ body{
 .agileinfo-social-grids ul li a i.fa.fa-facebook:hover {
     color: #3b5998;
 }
-.agileinfo-social-grids ul li a i.fa.fa-twitter{
+.agileinfo-social-grids ul li a i.fa.fa-envelope{
 	margin:0 1em;
 }
-.agileinfo-social-grids ul li a i.fa.fa-twitter:hover{
+.agileinfo-social-grids ul li a i.fa.fa-envelope:hover{
 	color: #55acee;
 }
 .agileinfo-social-grids ul li a i.fa.fa-rss{
@@ -538,11 +544,18 @@ ul.dropdown-menu li{
 /*-- //welcome --*/
 
 /*-- popular --*/
+#imgQuadro{
+    width:75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
 .popular-heading h3{
 	color:#FFFFFF;
 }
 .popular-section-wthree {
-  background: url(../images/1.jpg) no-repeat 0px 0px;
+  background: url(../images/Fundo.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -699,7 +712,7 @@ ul.dropdown-menu li{
 }
 /*-- //news --*/
 .subscribe {
-  background: url(../images/1.jpg) no-repeat 0px 0px;
+  background: url(../images/Fundo.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1420,7 +1433,7 @@ ul.bs-glyphicons-list {
 }
 .contact-form input[type="text"] {
   display: inline-block;
-  background: none;
+  /*background: none;*/
   border:solid 1px #999999;
   width: 31.9%;
   outline: none;
@@ -1431,7 +1444,7 @@ ul.bs-glyphicons-list {
 }
 .contact-form input[type="email"] {
   display: inline-block;
-  background: none;
+  /*background: none;*/
   border:solid 1px #999999;
   width: 31.9%;
   outline: none;
@@ -1443,7 +1456,7 @@ ul.bs-glyphicons-list {
 }
 .contact-form textarea {
   display: inline-block;
-  background: none;
+  /*background: none;*/
   border:solid 1px #999999;
   width: 100%;
   outline: none;
@@ -1460,7 +1473,7 @@ button.btn1{
     border: solid 1px #212121;
     text-align: center;
     text-decoration: none;
-    background: none;
+    /*background: none;*/
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1470,7 +1483,7 @@ button.btn1{
 button.btn1:hover {
     background: #2ebaef;
 	border: solid 1px #2ebaef;
-    color: #212121;
+    color: white;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1624,15 +1637,15 @@ figure.effect-apollo:hover p {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
-.gallery {
+/*.gallery {
     padding: 5em 0;
-}
+}*/
 .gallery-grids {
     margin-top: 4em;
 } 
 /*-- //gallery --*/
 /*-- about--*/
-.about, .menu-form,.footer,.features,.team,.codes,.contact,.gallery{
+.about, .menu-form,.footer,.features,.team,.codes,.contact{ /* .gallery */
     padding: 5em 0;
 }
 .w3ls-title {
